@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { DollarSign } from "lucide-react";
 import logo from "@/assets/logo-colo-calor.png";
 
 export const FinalCTASection = () => {
@@ -45,9 +44,11 @@ export const FinalCTASection = () => {
                 </p>
               </div>
 
-              <Button size="xl" variant="cta" className="w-full max-w-md text-lg h-auto py-4">
-                <DollarSign className="mr-2 shrink-0" />
-                <span>QUERO COMEÇAR AGORA!</span>
+              <Button size="xl" variant="cta" className="w-full max-w-md text-base md:text-lg h-auto py-4 px-6">
+                <span className="text-center leading-tight">
+                  Sim! Eu quero amamentar <br className="hidden sm:inline" />
+                  sem dor e sem complemento!
+                </span>
               </Button>
 
               <p className="text-sm text-muted-foreground">
