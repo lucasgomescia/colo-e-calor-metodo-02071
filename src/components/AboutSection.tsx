@@ -3,25 +3,18 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GraduationCap, BookOpen, Mic, Instagram } from "lucide-react";
 import camilaImage from "@/assets/camila-toniatti.jpg";
-
-const credentials = [
-  {
-    icon: GraduationCap,
-    text: "Consultora de amamentação desde 2020",
-  },
-  {
-    icon: Mic,
-    text: "Idealizadora do evento Bem Gestar",
-  },
-  {
-    icon: BookOpen,
-    text: "Coautora do livro CONHE'SER VOCÊ",
-  },
-];
-
+const credentials = [{
+  icon: GraduationCap,
+  text: "Consultora de amamentação desde 2020"
+}, {
+  icon: Mic,
+  text: "Idealizadora do evento Bem Gestar"
+}, {
+  icon: BookOpen,
+  text: "Coautora do livro CONHE'SER VOCÊ"
+}];
 export const AboutSection = () => {
-  return (
-    <section className="py-20">
+  return <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
@@ -63,32 +56,23 @@ export const AboutSection = () => {
 
                   <div className="space-y-3">
                     {credentials.map((credential, index) => {
-                      const Icon = credential.icon;
-                      return (
-                        <div key={index} className="flex items-center gap-3">
+                    const Icon = credential.icon;
+                    return <div key={index} className="flex items-center gap-3">
                           <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center flex-shrink-0">
                             <Icon className="w-5 h-5 text-primary" />
                           </div>
                           <p className="font-medium">{credential.text}</p>
-                        </div>
-                      );
-                    })}
+                        </div>;
+                  })}
                   </div>
 
-                  <Button variant="default" size="lg" className="w-full md:w-auto">
-                    <Instagram className="mr-2" />
-                    Siga no Instagram @bemgestaroficial
-                  </Button>
+                  
                 </div>
 
                 <div className="order-1 md:order-2">
                   <div className="relative">
                     <div className="rounded-2xl overflow-hidden shadow-elevated">
-                      <img
-                        src={camilaImage}
-                        alt="Camila Toniatti - Consultora de Amamentação"
-                        className="w-full h-auto object-cover"
-                      />
+                      <img src={camilaImage} alt="Camila Toniatti - Consultora de Amamentação" className="w-full h-auto object-cover" />
                     </div>
                     <div className="absolute -bottom-4 -left-4 bg-secondary text-secondary-foreground p-4 rounded-xl shadow-elevated">
                       <p className="font-bold text-2xl">+600</p>
@@ -101,6 +85,5 @@ export const AboutSection = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
