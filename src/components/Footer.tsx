@@ -1,4 +1,5 @@
 import { Instagram, Youtube, Mail, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo-colo-calor.png";
 
 export const Footer = () => {
   return (
@@ -7,7 +8,11 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
           {/* Sobre */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Método Colo & Calor</h3>
+            <img 
+              src={logo} 
+              alt="Método Colo & Calor - 8 passos para uma amamentação de sucesso" 
+              className="h-12 w-auto"
+            />
             <p className="text-sm text-muted-foreground leading-relaxed">
               Transformando a experiência da amamentação com conhecimento, suporte e carinho.
             </p>
