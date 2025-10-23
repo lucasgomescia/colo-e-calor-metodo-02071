@@ -37,20 +37,14 @@ export const AboutSection = () => {
                   </div>
 
                   <div className="space-y-4 text-lg leading-relaxed text-justify">
-                    <p>
-                      Mãe de duas lindas meninas, passei por desafios diferentes com cada uma delas na amamentação. 
-                      Foi essa experiência que me mostrou quantas mães enfrentam as mesmas dificuldades — e como a 
-                      consultoria pode transformar esse momento em algo prazeroso e tranquilo.
+                    <p className="indent-8">
+                      Sou mãe de duas linda meninas e passei por dificuldades e desafios diferentes com cada uma delas. Foi esta experiência que me fez entender que muitas mães passavam pelos mesmos desafios que passei e que como consultora eu poderia facilitar muito o processo e tornar a amamentação prazerosa e tranquila, como ela deve ser. Me formei consultora de amamentação em 2020 e desde então venho fazendo atendimentos domiciliares e atendimentos on-line para localidades onde não posso atender presencialmente. Foi desta realidade que desenvolvi os 8 passos para uma amamentação de sucesso e vejo meu sonho de ajudar o máximo de mães possível se tornando uma realidade neste curso.
                     </p>
-                    <p>
-                      Me formei consultora de amamentação em 2020 e desde então ajudo mães através de atendimentos 
-                      presenciais e online. Dessa vivência, desenvolvi os <strong>8 passos para uma amamentação de sucesso</strong>, 
-                      que agora compartilho neste curso para alcançar o máximo de mães possível.
+                    <p className="indent-8">
+                      Sou idealizadora do evento <strong>Bem Gestar</strong>, um evento preparatório para gestantes que acontece em Mogi das Cruzes. Conheça esta iniciativa no meu instagram @bemgestaroficial, que é um grande sucesso na cidade e já se encontra na 7 edição.
                     </p>
-                    <p>
-                      Também sou idealizadora do evento <strong>Bem Gestar</strong>, que já está na 7ª edição em Mogi das Cruzes, 
-                      e coautora do livro <strong>CONHE'SER VOCÊ</strong>, onde compartilho minhas experiências como mãe e 
-                      profissional da amamentação.
+                    <p className="indent-8">
+                      Por fim, também sou coautora do livro <strong>CONHE'SER VOCÊ</strong>, onde conto minhas experiência na amamentação como mãe e como consegui propesperar a duras penas e como a consultoria poderia ter feito a difererença na minha vida!
                     </p>
                   </div>
 
