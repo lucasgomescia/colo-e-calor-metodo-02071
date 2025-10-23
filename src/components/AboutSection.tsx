@@ -74,10 +74,7 @@ export const AboutSection = () => {
                     <div className="rounded-2xl overflow-hidden shadow-elevated">
                       <img src={camilaImage} alt="Camila Toniatti - Consultora de Amamentação" className="w-full h-auto object-cover" />
                     </div>
-                    <div className="absolute -bottom-4 -left-4 bg-secondary text-secondary-foreground p-4 rounded-xl shadow-elevated">
-                      <p className="font-bold text-2xl">+600</p>
-                      <p className="text-sm">Mães ajudadas</p>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
