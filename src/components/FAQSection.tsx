@@ -8,34 +8,24 @@ import { HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "Por quanto tempo terei acesso ao conteúdo?",
+    question: "Quando posso começar o curso?",
     answer:
-      "Você terá acesso vitalício a todo o conteúdo do método! Assista quantas vezes quiser, no seu ritmo, sem pressa.",
+      "Imediatamente. Mesmo durante a gestação, você já pode iniciar hoje mesmo.",
+  },
+  {
+    question: "E se meu bebê já tiver nascido, ainda vale a pena fazer?",
+    answer:
+      "Sim! O Método Colo & Calor foi criado para ajudar em qualquer fase da amamentação — seja enfrentando dor, pega incorreta, baixa produção ou insegurança nas mamadas.",
   },
   {
     question: "Em quanto tempo verei resultados?",
     answer:
-      "Muitas mães relatam melhorias já nas primeiras mamadas após aplicar as técnicas. Porém, cada caso é único. O método foi desenvolvido para funcionar tanto como preparação quanto como correção de problemas.",
+      "Os resultados podem aparecer logo nas primeiras aulas. As técnicas são práticas, diretas e já trouxeram alívio para muitas mães em poucos dias — algumas sentiram diferença já na primeira mamada.",
   },
   {
-    question: "E se meu bebê já nasceu?",
+    question: "Por quanto tempo terei acesso?",
     answer:
-      "O método funciona perfeitamente! Você aprenderá técnicas para corrigir a pega, aumentar a produção e eliminar as dores, mesmo que já esteja amamentando.",
-  },
-  {
-    question: "Quando posso começar o curso?",
-    answer:
-      "Imediatamente após a compra! Você recebe acesso instantâneo a todo o conteúdo e pode começar a estudar na mesma hora.",
-  },
-  {
-    question: "O método funciona para todas as mães?",
-    answer:
-      "O Método Colo & Calor é baseado em técnicas comprovadas e já ajudou mais de 600 mães. Ele foi desenvolvido para funcionar para a maioria dos casos. Porém, oferecemos 7 dias de garantia caso você sinta que não é para você.",
-  },
-  {
-    question: "Preciso de algum material especial?",
-    answer:
-      "Não! O método ensina técnicas que você pode aplicar com o que já tem em casa. Não há necessidade de comprar equipamentos especiais.",
+      "Você terá acesso ao treinamento por 12 meses.",
   },
 ];
 
