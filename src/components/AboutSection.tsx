@@ -43,23 +43,10 @@ export const AboutSection = () => {
                     </Badge>
                   </div>
 
-                  <div className="space-y-4 text-lg leading-relaxed">
-                    <p>
-                      Mãe de duas lindas meninas, passei por desafios diferentes com cada uma delas na amamentação. 
-                      Foi essa experiência que me mostrou quantas mães enfrentam as mesmas dificuldades — e como a 
-                      consultoria pode transformar esse momento em algo prazeroso e tranquilo.
-                    </p>
-                    <p>
-                      Me formei consultora de amamentação em 2020 e desde então ajudo mães através de atendimentos 
-                      presenciais e online. Dessa vivência, desenvolvi os <strong>8 passos para uma amamentação de sucesso</strong>, 
-                      que agora compartilho neste curso para alcançar o máximo de mães possível.
-                    </p>
-                    <p>
-                      Também sou idealizadora do evento <strong>Bem Gestar</strong>, que já está na 7ª edição em Mogi das Cruzes, 
-                      e coautora do livro <strong>CONHE'SER VOCÊ</strong>, onde compartilho minhas experiências como mãe e 
-                      profissional da amamentação.
-                    </p>
-                  </div>
+                  <p className="text-lg leading-relaxed">
+                    Mãe de duas meninas e apaixonada por ajudar outras mães a viverem 
+                    uma experiência positiva com a amamentação.
+                  </p>
 
                   <div className="space-y-3">
                     {credentials.map((credential, index) => {
