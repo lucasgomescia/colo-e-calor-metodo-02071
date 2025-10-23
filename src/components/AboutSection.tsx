@@ -36,7 +36,7 @@ export const AboutSection = () => {
                     </Badge>
                   </div>
 
-                  <div className="space-y-4 text-lg leading-relaxed">
+                  <div className="space-y-4 text-lg leading-relaxed text-justify">
                     <p>
                       Mãe de duas lindas meninas, passei por desafios diferentes com cada uma delas na amamentação. 
                       Foi essa experiência que me mostrou quantas mães enfrentam as mesmas dificuldades — e como a 
