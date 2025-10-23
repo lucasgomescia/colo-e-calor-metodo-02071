@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Trophy, DollarSign } from "lucide-react";
+import { DollarSign } from "lucide-react";
+import logo from "@/assets/logo-colo-calor.png";
 
 export const FinalCTASection = () => {
   return (
@@ -10,9 +11,12 @@ export const FinalCTASection = () => {
           <Card className="shadow-elevated border-2 border-secondary">
             <CardContent className="p-8 md:p-12 text-center space-y-8">
               <div className="space-y-4">
-                <div className="flex items-center justify-center gap-4 mb-4">
-                  <Heart className="w-12 h-12 text-secondary fill-secondary" />
-                  <Trophy className="w-12 h-12 text-primary" />
+                <div className="flex items-center justify-center mb-6">
+                  <img 
+                    src={logo} 
+                    alt="Método Colo & Calor" 
+                    className="h-16 md:h-20 w-auto"
+                  />
                 </div>
                 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
